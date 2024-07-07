@@ -120,37 +120,37 @@
         app:srcCompat="@drawable/ic_share" />
 
     <TextView
-        android:id="@+id/likes_counter"
+        android:id="@+id/likesCounter"
         android:layout_width="38dp"
         android:layout_height="24dp"
         android:layout_marginTop="12dp"
         android:background="@null"
         android:ems="0"
-        android:text="123"
+        android:text="0"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/likes"
         app:layout_constraintTop_toBottomOf="@+id/content" />
 
     <TextView
-        android:id="@+id/shares_counter"
+        android:id="@+id/sharesCounter"
         android:layout_width="38dp"
         android:layout_height="24dp"
         android:layout_marginTop="12dp"
         android:background="@null"
         android:ems="0"
-        android:text="25"
+        android:text="0"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/shares"
         app:layout_constraintTop_toBottomOf="@+id/content" />
 
     <TextView
-        android:id="@+id/watches_counter"
+        android:id="@+id/watchesCounter"
         android:layout_width="38dp"
         android:layout_height="24dp"
         android:layout_marginTop="12dp"
         android:background="@null"
         android:ems="0"
-        android:text="700"
+        android:text="0"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/watches"
         app:layout_constraintTop_toBottomOf="@+id/content" />
